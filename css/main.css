@@ -1,0 +1,91 @@
+body {
+  background: #e9eae5;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1px; }
+  body hr {
+    border: solid 1px #3333FF; }
+  body .badge {
+    color: white; }
+  body .badge-html {
+    background-color: #e65100; }
+  body .badge-css {
+    background-color: #0091ea; }
+  body .badge-js {
+    background-color: #CC9900; }
+  body .badge-bootstrap {
+    background-color: #6a1b9a; }
+  body .badge-angular {
+    background-color: #dd2c00; }
+  body .badge-react {
+    background-color: #00b8d4; }
+  body .badge-redux {
+    background-color: #827717; }
+  body .badge-other {
+    background-color: #424242; }
+  body .badge-db {
+    background-color: #006400; }
+  body .summary {
+    border: solid 1px lightgray; }
+    body .summary img {
+      width: 50%;
+      border-radius: 10px; }
+    body .summary h3 {
+      color: #3333FF;
+      font-weight: bold; }
+  body .contact {
+    border: solid 1px lightgray; }
+    body .contact hr {
+      border: solid 1px #3333FF; }
+    body .contact h5 {
+      padding-left: 15px; }
+    body .contact p {
+      padding-left: 15px; }
+    body .contact .social-media .icon-border {
+      display: inline-block;
+      border: solid 2px #3333FF;
+      border-radius: 50%;
+      padding: 5px;
+      width: 45px;
+      height: 45px;
+      font-size: 22px;
+      text-align: center; }
+      body .contact .social-media .icon-border .fa {
+        color: grey; }
+        body .contact .social-media .icon-border .fa:hover {
+          color: #3333FF; }
+  body .os .card {
+    border: solid 1px lightgray; }
+    body .os .card ul {
+      border-bottom: solid 1px #3333FF; }
+    body .os .card .skills .skill-tag {
+      color: #3333FF;
+      font-style: italic; }
+    body .os .card .skills .skill {
+      margin: 15px; }
+      body .os .card .skills .skill p {
+        text-align: left;
+        margin-bottom: 0px;
+        display: inline-block;
+        width: 28%; }
+      body .os .card .skills .skill .progress {
+        display: inline-block;
+        width: 70%;
+        height: 7.5px;
+        background-color: lightgrey; }
+        body .os .card .skills .skill .progress .progress-bar {
+          height: 100%;
+          background-color: #3333FF !important; }
+    body .os .card .projects h5 {
+      border-top: solid 1px #3333FF;
+      padding: 5px; }
+    body .os .card .projects .badge {
+      float: right;
+      margin: 1px; }
+    body .os .card .projects a {
+      color: grey;
+      font-weight: bold;
+      text-decoration: underline; }
+      body .os .card .projects a:hover {
+        color: #3333FF; }
+
+/*# sourceMappingURL=main.css.map */

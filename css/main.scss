@@ -1,0 +1,145 @@
+$main-heading-color: #3333FF ;
+$content-left-padding: 15px;
+$section-border:solid 1px lightgray;
+$content-border: solid 1px #3333FF;
+$color-html: #e65100;
+$color-css: #0091ea;
+$color-js: #CC9900;
+$color-bootstrap: #6a1b9a; 
+$color-angular: #dd2c00; 
+$color-react: #00b8d4; 
+$color-redux: #827717; 
+$color-other: #424242; 
+$color-db: #006400; 
+body{
+    background:#e9eae5;
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    hr{
+        border: solid 1px $main-heading-color;
+    }
+    .badge{
+        color:white;
+    }
+    .badge-html {
+        background-color: $color-html;
+    }
+    .badge-css {
+        background-color: $color-css;
+    }
+    .badge-js {
+        background-color: $color-js;
+    }
+    .badge-bootstrap {
+        background-color: $color-bootstrap;
+    }
+    .badge-angular {
+        background-color: $color-angular;
+    }
+    .badge-react {
+        background-color: $color-react;
+    }
+    .badge-redux {
+        background-color: $color-redux;
+    }
+    .badge-other {
+        background-color: $color-other;
+    }
+    .badge-db{
+        background-color: $color-db;
+    }
+    .summary {
+        img{
+        width:50%;
+        
+        border-radius: 10px;}
+        h3{
+            color: $main-heading-color;
+            font-weight: bold;
+        }
+
+        border: $section-border;
+    }
+    .contact{
+        border: $section-border;
+        hr{
+            border: $content-border;
+        }
+        h5 {
+            padding-left:$content-left-padding;
+            
+        }
+        p{
+            padding-left: $content-left-padding;
+        }
+        .social-media .icon-border{
+            display: inline-block;
+            border: solid 2px #3333FF;
+            border-radius: 50%;
+            padding: 5px;
+            width:45px;
+            height:45px;
+            font-size:22px;
+            text-align: center;
+            .fa{
+                color: grey;
+                &:hover{
+                    color: $main-heading-color;
+                }
+            }
+        }
+    }
+    .os{
+        .card{
+            border: $section-border;
+            ul{
+                border-bottom: $content-border;
+            }
+            .skills{
+                .skill-tag{
+                    color:$main-heading-color;
+                    font-style: italic;
+                }
+                .skill{
+                    margin: 15px;
+                    p{
+                        text-align: left;
+                        margin-bottom:0px;
+                        display:inline-block;
+                        width:28%;
+                    }
+                    .progress{
+                        display:inline-block;
+                        width:70%;
+                        height:7.5px;
+                        background-color: lightgrey;
+                        .progress-bar{
+                            height:100%;
+                            background-color: $main-heading-color !important;
+                        }
+                    }
+        
+                }
+            }
+            .projects{
+                h5{
+                    border-top: $content-border;
+                    padding: 5px;
+                }
+                .badge{
+                    float:right;
+                    margin:1px;
+                }
+                a{
+                    color: grey;
+                    font-weight: bold;
+                    text-decoration: underline;
+                    &:hover{
+                        color: $main-heading-color;
+                    }
+                }
+            }
+        }
+    }
+
+}
