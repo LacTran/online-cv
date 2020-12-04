@@ -24,6 +24,10 @@ body {
     background-color: #424242; }
   body .badge-db {
     background-color: #006400; }
+  body .badge-react-native {
+    background-color: #5c6e91; }
+  body .badge-firebase {
+    background-color: #0a043c; }
   body .summary {
     border: solid 1px lightgray; }
     body .summary img {

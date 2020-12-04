@@ -6,6 +6,8 @@ $color-html: #e65100;
 $color-css: #0091ea;
 $color-js: #CC9900;
 $color-bootstrap: #6a1b9a; 
+$color-react-native: #5c6e91;
+$color-firebase: #0a043c;
 $color-angular: #dd2c00; 
 $color-react: #00b8d4; 
 $color-redux: #827717; 
@@ -47,6 +49,12 @@ body{
     }
     .badge-db{
         background-color: $color-db;
+    }
+    .badge-react-native{
+        background-color: $color-react-native;
+    }
+    .badge-firebase{
+        background-color: $color-firebase;
     }
     .summary {
         img{
